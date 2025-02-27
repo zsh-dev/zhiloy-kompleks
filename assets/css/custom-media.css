@@ -253,6 +253,10 @@
 .feature-item img {
     max-width: 100%;
 }
+.aspect-md {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
 
 .padding-0-md {
     padding-inline: 0;
