@@ -562,7 +562,7 @@ gap: 32px;
 }
 .about-inner__boxes {max-width: 488px;
 }
-.adv-box {
+.feature-item {
     border-radius: 24px;
     display: flex;
     align-items: center;
@@ -570,14 +570,14 @@ gap: 32px;
     padding: 16px;
     background-color: var(--box-bg);
 }
-.adv-box:not(:last-child) {
+.feature-item:not(:last-child) {
     margin-bottom: 12px;
 }
-.adv-box img {
+.feature-item img {
     max-width: 128px;
     object-fit: cover;
 }
-.adv-box h3 {
+.feature-item h3 {
     font-size: clamp(0.875rem, 0.8303rem + 0.1988vw, 1rem);
     margin-bottom: 12px;
 }

@@ -57,7 +57,7 @@
         gap: 16px;
         
     }
-    .adv-box {
+    .feature-item {
         min-width: 400px;
     }
 
@@ -131,7 +131,7 @@
     .feature-box h3 {
         margin-top: 20px;
     }
-    .adv-box {
+    .feature-item {
         min-width: 340px;
     }
     .three-cols {
@@ -244,13 +244,13 @@
 .feature-box h3 {
     margin: 0;
 }
-.adv-box {
+.feature-item {
     flex-direction: column;
     align-items: start;
     min-width: 280px;
     gap: 20px;
 }
-.adv-box img {
+.feature-item img {
     max-width: 100%;
 }
 
