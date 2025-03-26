@@ -78,9 +78,6 @@ margin-bottom: 16px;
 .site-form input:focus, .site-form input:hover {
     border-color: var(--accent-color);
 }
-.site-form input:invalid {
-    border-color: red;
-}
 .site-form__bottom {margin-top: 16px;
     display: flex;
     align-items: center;
