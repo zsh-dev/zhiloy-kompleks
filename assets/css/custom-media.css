@@ -43,10 +43,15 @@
     .two-cols {
         flex-direction: column;
     }
+    .column-reverse-md {
+        flex-direction: column-reverse;
+    }
     .two-cols.footer-cols, .copyright-items {
         flex-direction: row;
     }
-    
+    .info-section .about-inner img {
+        max-width: 100%;
+    }
     .about-inner__txt {
         max-width: 100%;
     }

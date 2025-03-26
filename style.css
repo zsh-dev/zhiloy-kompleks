@@ -78,7 +78,9 @@ margin-bottom: 16px;
 .site-form input:focus, .site-form input:hover {
     border-color: var(--accent-color);
 }
-
+.site-form input:invalid {
+    border-color: red;
+}
 .site-form__bottom {margin-top: 16px;
     display: flex;
     align-items: center;
@@ -534,10 +536,7 @@ justify-content: space-between;
 gap: 32px;
 }
 .info-section .about-inner img {
-    max-width: 100%;
-    height: auto;
-    flex: 1 1 0%;
-    min-width: 0;
+    max-width: 50%;
 }
 
 .info-section .about-inner__txt {
@@ -816,6 +815,7 @@ border-color: var(--border-color);
     margin-top: 64px;
     margin-bottom: 80px;
     gap: 59px;
+    flex-wrap: wrap;
 }
 
 .footer__contacts {max-width: 300px;margin-right: 95px;
